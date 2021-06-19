@@ -2,12 +2,18 @@ package instruments;
 
 public class Cello extends Instrument{
 
-    private final Instrument instrument;
+    private int celloHeight;
 
-    public Cello (String instrumentName, String instrumentType, Instrument instrument) {
+    public Cello (String instrumentName, String instrumentType, int celloHeight) {
         super(instrumentName, instrumentType);
-        this.instrument = instrument;
+        this.celloHeight = celloHeight;
     }
 
+    public int getCelloHeight() {
+        return celloHeight;
+    }
 
+    public String play() {
+        return "Sad Cello noises";
+    }
 }
