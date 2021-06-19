@@ -25,7 +25,7 @@ public class CelloTest {
 
     @Test
     public void guitarCanPlay(){
-        assertEquals("Sad cello noises", cello.play());
+        assertEquals("Sad Cello noises", cello.play());
     }
 
 }
