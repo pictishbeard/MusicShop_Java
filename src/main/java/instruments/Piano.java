@@ -2,12 +2,14 @@ package instruments;
 
 public class Piano extends Instrument {
 
-    private final Instrument instrument;
-
-    public Piano(String instrumentName, String instrumentType, Instrument instrument) {
+    private int numberOfKeys;
+    public Piano(String instrumentName, String instrumentType, int numberOfKeys) {
         super(instrumentName, instrumentType);
-        this.instrument = instrument;
+        this.numberOfKeys = numberOfKeys;
+    }
 
+    public int getNumberOfKeys() {
+        return numberOfKeys;
     }
 
     public String play() {
