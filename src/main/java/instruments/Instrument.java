@@ -18,7 +18,4 @@ public abstract class Instrument {
         return instrumentType;
     }
 
-    public void setInstrumentType(String instrumentType) {
-        this.instrumentType = instrumentType;
-    }
 }
