@@ -1,4 +1,4 @@
 package musicitems;
 
-public class GuitarStrings {
+public class GuitarStrings extends {
 }

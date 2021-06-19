@@ -2,16 +2,16 @@ package instruments;
 
 public abstract class Instrument {
 
-    private String instrumentName;
+    private String instrumentMaterial;
     private String instrumentType;
 
     public Instrument(String instrumentName, String instrumentType) {
-        this.instrumentName = instrumentName;
+        this.instrumentMaterial = instrumentName;
         this.instrumentType = instrumentType;
     }
 
-    public String getInstrumentName() {
-        return instrumentName;
+    public String getInstrumentMaterial() {
+        return instrumentMaterial;
     }
 
     public String getInstrumentType() {
